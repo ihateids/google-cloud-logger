@@ -83,8 +83,8 @@ console.error("This is an error:", new Error());
 
 ## How it looks in google StackDriver log
 
-![StackDriver log](./assets/img1.png "")
-![StackDriver log](./assets/img2.png "")
+![StackDriver log](https://raw.githubusercontent.com/ihateids/google-cloud-logger/main/assets/img1.PNG "")
+![StackDriver log](https://raw.githubusercontent.com/ihateids/google-cloud-logger/main/assets/img2.PNG "")
 
 
 
