@@ -7,7 +7,7 @@ The package overrides default handling of console log/debug/warn and error. If o
 It is also possible to provide additional labels (e.g. sessionId, executionId, endPoint,git info, etc). Just add following somewhere into your main express/axios script
 
 ```javascript
-import { AsyncLocalStorageContext: appNamespace } from '@northscaler/continuation-local-storage'; // prerequisite:  Node.js >= 12.17.0
+import { AsyncLocalStorageContext as appNamespace } from '@northscaler/continuation-local-storage'; // prerequisite:  Node.js >= 12.17.0
 
 appNamespace().run(() => {
     appNamespace().set("logEntryMetadata", {
