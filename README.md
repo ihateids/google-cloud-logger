@@ -1,5 +1,3 @@
-# WORK IN PROGRESS ...
-
 ## How it works
 
 The package overrides default handling of console log/debug/warn and error. If object is provided as argument, it will put the object in jsonPayload of log entry instead of dumping the object on multiple lines.
